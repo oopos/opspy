@@ -60,7 +60,7 @@ def runtwisted(func):
 
 def newrun(inp, fvars):
     print "Running on http://0.0.0.0:8086/"
-    runtwisted(web.webpyfunc(inp, fvars, False))
+    runtwisted(web.opspyfunc(inp, fvars, False))
 
 def iframe(url):
     return """

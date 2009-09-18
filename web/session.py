@@ -24,7 +24,7 @@ __all__ = [
 ]
 
 web.config.session_parameters = utils.storage({
-    'cookie_name': 'webpy_session_id',
+    'cookie_name': 'opspy_session_id',
     'cookie_domain': None,
     'timeout': 86400, #24 * 60 * 60, # 24 hours in seconds
     'ignore_expiry': True,

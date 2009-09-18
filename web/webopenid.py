@@ -91,7 +91,7 @@ class host:
         i = web.input('openid', return_to='/')
 
         n = _random_session()
-        sessions[n] = {'webpy_return_to': i.return_to}
+        sessions[n] = {'opspy_return_to': i.return_to}
         
         c = openid.consumer.consumer.Consumer(sessions[n], store)
         a = c.begin(i.openid)
@@ -103,7 +103,7 @@ class host:
     def GET(self):
         n = web.cookies('openid_session_id').openid_session_id
         web.setcookie('openid_session_id', '', expires=-1)
-        return_to = sessions[n]['webpy_return_to']
+        return_to = sessions[n]['opspy_return_to']
 
         c = openid.consumer.consumer.Consumer(sessions[n], store)
         a = c.complete(web.input(), web.ctx.home + web.ctx.fullpath)

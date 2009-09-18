@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""web.py: makes web apps (http://webpy.org)"""
+"""web.py: makes web apps (http://opspy.org)"""
 
 from __future__ import generators
 
@@ -9,7 +9,7 @@ __author__ = [
     "Anand Chitipothu <anandology@gmail.com>"
 ]
 __license__ = "public domain"
-__contributors__ = "see http://webpy.org/changes"
+__contributors__ = "see http://opspy.org/changes"
 
 import utils, db, net, wsgi, http, webapi, httpserver, debugerror
 import template, form

@@ -386,13 +386,13 @@ class Transaction:
                 ctx.db_execute(db_cursor, SQLQuery(q % transaction_count))
 
             def do_transact(self):
-                self.query('SAVEPOINT webpy_sp_%s')
+                self.query('SAVEPOINT opspy_sp_%s')
 
             def do_commit(self):
-                self.query('RELEASE SAVEPOINT webpy_sp_%s')
+                self.query('RELEASE SAVEPOINT opspy_sp_%s')
 
             def do_rollback(self):
-                self.query('ROLLBACK TO SAVEPOINT webpy_sp_%s')
+                self.query('ROLLBACK TO SAVEPOINT opspy_sp_%s')
 
         class dummy_engine:
             """Transaction Engine used instead of subtransaction_engine 

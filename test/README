@@ -2,7 +2,7 @@
 
 ## Setup
 
-All databases expect a database with name `webpy` with username `scott` and password `tiger`.
+All databases expect a database with name `opspy` with username `scott` and password `tiger`.
 
 ## Running all tests
 

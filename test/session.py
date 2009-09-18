@@ -47,7 +47,7 @@ class SessionTest(webtest.TestCase):
         self.assertEquals(b.open('/count').read(), '1')
         self.assertEquals(b.open('/count').read(), '2')
         
-        cookie = b.cookiejar._cookies['0.0.0.0']['/']['webpy_session_id']
+        cookie = b.cookiejar._cookies['0.0.0.0']['/']['opspy_session_id']
         cookie.value = '/etc/password'
         self.assertEquals(b.open('/count').read(), '1')
 

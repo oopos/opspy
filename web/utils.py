@@ -1055,7 +1055,7 @@ def safemarkdown(text):
     outside HTML input, so that only the things supported by Markdown
     can be used. Also converts raw URLs to links.
 
-    (requires [markdown.py](http://webpy.org/markdown.py))
+    (requires [markdown.py](http://opspy.org/markdown.py))
     """
     from markdown import markdown
     if text:

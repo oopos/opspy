@@ -8,14 +8,14 @@
 * support web.datestr for datetime.date objects also 
 * support for lists in db queries
 * new: uniq and iterview
-* fix: set debug=False when application is run with mod_wsgi (tx Patrick Swieskowski) [Bug#370904](https://bugs.launchpad.net/webpy/+bug/370904)
-* fix: make web.commify work  with decimals [Bug#317204](https://bugs.launchpad.net/webpy/+bug/317204)
-* fix: unicode issues with sqlite database [Bug#373219](https://bugs.launchpad.net/webpy/+bug/373219)
-* fix: urlquote url when the server is lighttpd [Bug#339858](https://bugs.launchpad.net/webpy/+bug/339858)
+* fix: set debug=False when application is run with mod_wsgi (tx Patrick Swieskowski) [Bug#370904](https://bugs.launchpad.net/opspy/+bug/370904)
+* fix: make web.commify work  with decimals [Bug#317204](https://bugs.launchpad.net/opspy/+bug/317204)
+* fix: unicode issues with sqlite database [Bug#373219](https://bugs.launchpad.net/opspy/+bug/373219)
+* fix: urlquote url when the server is lighttpd [Bug#339858](https://bugs.launchpad.net/opspy/+bug/339858)
 * fix: issue with using date.format in templates
-* fix: use TOP instead of LIMIT in mssql database [Bug#324049](https://bugs.launchpad.net/webpy/+bug/324049)
+* fix: use TOP instead of LIMIT in mssql database [Bug#324049](https://bugs.launchpad.net/opspy/+bug/324049)
 * fix: make sessions work well with expirations
-* fix: accept both list and tuple as arg values in form.Dropdown [Bug#314970](https://bugs.launchpad.net/webpy/+bug/314970)
+* fix: accept both list and tuple as arg values in form.Dropdown [Bug#314970](https://bugs.launchpad.net/opspy/+bug/314970)
 * fix: match parenthesis when parsing `for` statement in templates
 * fix: fix python 2.3 compatibility 
 * fix: ignore dot folders when compiling templates (tx Stuart Langridge) 
@@ -55,13 +55,13 @@
 
 ## 2008-01-19: 0.23
 
-* fix: for web.background gotcha ([133079](http://bugs.launchpad.net/webpy/+bug/133079))
-* fix: for postgres unicode bug ([177265](http://bugs.launchpad.net/webpy/+bug/177265))
-* fix: web.profile behavior in python 2.5 ([133080](http://bugs.launchpad.net/webpy/+bug/133080))
-* fix: only uppercase HTTP methods are allowed. ([176415](http://bugs.launchpad.net/webpy/+bug/176415))
-* fix: transaction error in with statement ([125118](http://bugs.launchpad.net/webpy/+bug/125118))
-* fix: fix in web.reparam ([162085](http://bugs.launchpad.net/webpy/+bug/162085))
-* fix: various unicode issues ([137042](http://bugs.launchpad.net/webpy/+bug/137042), [180510](http://bugs.launchpad.net/webpy/+bug/180510), [180549](http://bugs.launchpad.net/webpy/+bug/180549), [180653](http://bugs.launchpad.net/webpy/+bug/180653))
+* fix: for web.background gotcha ([133079](http://bugs.launchpad.net/opspy/+bug/133079))
+* fix: for postgres unicode bug ([177265](http://bugs.launchpad.net/opspy/+bug/177265))
+* fix: web.profile behavior in python 2.5 ([133080](http://bugs.launchpad.net/opspy/+bug/133080))
+* fix: only uppercase HTTP methods are allowed. ([176415](http://bugs.launchpad.net/opspy/+bug/176415))
+* fix: transaction error in with statement ([125118](http://bugs.launchpad.net/opspy/+bug/125118))
+* fix: fix in web.reparam ([162085](http://bugs.launchpad.net/opspy/+bug/162085))
+* fix: various unicode issues ([137042](http://bugs.launchpad.net/opspy/+bug/137042), [180510](http://bugs.launchpad.net/opspy/+bug/180510), [180549](http://bugs.launchpad.net/opspy/+bug/180549), [180653](http://bugs.launchpad.net/opspy/+bug/180653))
 * new: support for https
 * new: support for secure cookies
 * new: sendmail
@@ -69,13 +69,13 @@
 
 ## 2007-08-23: 0.22
 
-* compatibility with new DBUtils API ([122112](https://bugs.launchpad.net/webpy/+bug/122112))
-* fix reloading ([118683](https://bugs.launchpad.net/webpy/+bug/118683))
-* fix compatibility between `changequery` and `redirect` ([118234](https://bugs.launchpad.net/webpy/+bug/118234))
-* fix relative URI in `web.redirect` ([118236](https://bugs.launchpad.net/webpy/+bug/118236))
-* fix `ctx._write` support in built-in HTTP server ([121908](https://bugs.launchpad.net/webpy/+bug/121908))
-* fix `numify` strips things after '.'s ([118644](https://bugs.launchpad.net/webpy/+bug/118644))
-* fix various unicode isssues ([114703](https://bugs.launchpad.net/webpy/+bug/114703), [120644](https://bugs.launchpad.net/webpy/+bug/120644), [124280](https://bugs.launchpad.net/webpy/+bug/124280))
+* compatibility with new DBUtils API ([122112](https://bugs.launchpad.net/opspy/+bug/122112))
+* fix reloading ([118683](https://bugs.launchpad.net/opspy/+bug/118683))
+* fix compatibility between `changequery` and `redirect` ([118234](https://bugs.launchpad.net/opspy/+bug/118234))
+* fix relative URI in `web.redirect` ([118236](https://bugs.launchpad.net/opspy/+bug/118236))
+* fix `ctx._write` support in built-in HTTP server ([121908](https://bugs.launchpad.net/opspy/+bug/121908))
+* fix `numify` strips things after '.'s ([118644](https://bugs.launchpad.net/opspy/+bug/118644))
+* fix various unicode isssues ([114703](https://bugs.launchpad.net/opspy/+bug/114703), [120644](https://bugs.launchpad.net/opspy/+bug/120644), [124280](https://bugs.launchpad.net/opspy/+bug/124280))
 
 ## 2007-05-28: 0.21
 
