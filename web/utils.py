@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """
 General Utilities
-(part of web.py)
+(part of ops.py)
 """
 
 __all__ = [

@@ -1,6 +1,6 @@
 """
 Session Management
-(from web.py)
+(from ops.py)
 """
 
 import os, time, datetime, random, base64
@@ -38,7 +38,7 @@ class SessionExpired(web.HTTPError):
         web.HTTPError.__init__(self, '200 OK', {}, data=message)
 
 class Session(utils.ThreadedDict):
-    """Session management for web.py
+    """Session management for ops.py
     """
 
     def __init__(self, app, store, initializer=None):

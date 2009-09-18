@@ -1,7 +1,7 @@
 #!/usr/bin/python
 """
 Web application
-(from web.py)
+(from ops.py)
 """
 import webapi as web
 import webapi, wsgi, utils
@@ -133,8 +133,8 @@ class application:
             >>> def hello(handler): return "hello, " +  handler()
             ...
             >>> app.add_processor(hello)
-            >>> app.request("/web.py").data
-            'hello, web.py'
+            >>> app.request("/ops.py").data
+            'hello, ops.py'
         """
         self.processors.append(processor)
 

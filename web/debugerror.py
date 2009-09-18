@@ -1,6 +1,6 @@
 """
 pretty debug errors
-(part of web.py)
+(part of ops.py)
 
 portions adapted from Django <djangoproject.com> 
 Copyright (c) 2005, the Lawrence Journal-World

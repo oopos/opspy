@@ -1,6 +1,6 @@
 """
 HTML forms
-(part of web.py)
+(part of ops.py)
 """
 
 import copy, re

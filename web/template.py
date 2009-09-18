@@ -1,6 +1,6 @@
 """
 simple, elegant templating
-(part of web.py)
+(part of ops.py)
 
 Template design:
 

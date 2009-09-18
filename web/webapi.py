@@ -1,6 +1,6 @@
 """
 Web API (wrapper around WSGI)
-(from web.py)
+(from ops.py)
 """
 
 __all__ = [
@@ -33,7 +33,7 @@ from utils import storage, storify, threadeddict, dictadd, intget, utf8
 
 config = storage()
 config.__doc__ = """
-A configuration object for various aspects of web.py.
+A configuration object for various aspects of ops.py.
 
 `debug`
    : when True, enables reloading, disabled template caching and sets internalerror to debugerror.

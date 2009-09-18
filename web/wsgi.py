@@ -1,6 +1,6 @@
 """
 WSGI Utilities
-(from web.py)
+(from ops.py)
 """
 
 import os, sys

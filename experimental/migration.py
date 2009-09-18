@@ -1,4 +1,4 @@
-"""Migration script to run web.py 0.23 programs using 0.3.
+"""Migration script to run ops.py 0.23 programs using 0.3.
 
 Import this module at the beginning of your program.
 """

@@ -1,5 +1,5 @@
 """test utilities
-(part of web.py)
+(part of ops.py)
 """
 import unittest
 import sys, os

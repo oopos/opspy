@@ -1,6 +1,6 @@
 """
 Network Utilities
-(from web.py)
+(from ops.py)
 """
 
 __all__ = [

@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""web.py: makes web apps (http://opspy.org)"""
+"""ops.py: makes web apps (http://opspy.org)"""
 
 from __future__ import generators
 

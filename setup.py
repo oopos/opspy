@@ -4,9 +4,9 @@
 
 from distutils.core import setup
 
-setup(name='web.py',
+setup(name='ops.py',
       version='0.32',
-      description='web.py: makes web apps',
+      description='ops.py: makes web apps',
       author='Aaron Swartz',
       author_email='me@aaronsw.com',
       maintainer='Anand Chitipothu',

@@ -1,4 +1,4 @@
-"""openid.py: an openid library for web.py
+"""openid.py: an openid library for ops.py
 
 Notes:
 
@@ -10,7 +10,7 @@ Notes:
    in user will get logged out.
 
  - State must be maintained through the entire auth process 
-   -- this means that if you have multiple web.py processes 
+   -- this means that if you have multiple ops.py processes 
    serving one set of URLs or if you restart your app often 
    then log ins will fail. You have to replace sessions and 
    store for things to work.

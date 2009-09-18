@@ -1,5 +1,5 @@
 """Browser to test web applications.
-(from web.py)
+(from ops.py)
 """
 from utils import re_compile
 from net import htmlunquote
@@ -179,7 +179,7 @@ class Browser:
         self.form[key] = value
 
 class AppBrowser(Browser):
-    """Browser interface to test web.py apps.
+    """Browser interface to test ops.py apps.
     
         b = AppBrowser(app)
         b.open('/')
@@ -201,7 +201,7 @@ class AppBrowser(Browser):
         return urllib2.build_opener(AppHandler(self.app))
 
 class AppHandler(urllib2.HTTPHandler):
-    """urllib2 handler to handle requests using web.py application."""
+    """urllib2 handler to handle requests using ops.py application."""
     handler_order = 100
 
     def __init__(self, app):

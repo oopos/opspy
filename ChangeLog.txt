@@ -1,4 +1,4 @@
-# web.py changelog
+# ops.py changelog
 
 ## 2009-06-04 0.32
 
@@ -103,7 +103,7 @@
 * New function: `flush`
 * New function: `load`, `unload`
 * New variable: `loadhooks`, `unloadhooks`
-* Better docs; generating [docs](documentation) from web.py now
+* Better docs; generating [docs](documentation) from ops.py now
 * global variable `REAL_SCRIPT_NAME` can now be used to work around lighttpd madness
 * fastcgi/scgi servers now can listen on sockets
 * `output` now encodes Unicode
@@ -195,7 +195,7 @@
 * Add support for database pooling (tx Steve Huffman).
 * Add support for passing values to functions called by `handle`. If you do `('foo', 'value')` it will add `'value'` as an argument when it calls `foo`.
 * Add support for scgi (tx David Terrell for the patch).
-* Add support for web.py functions that are iterators (tx Brendan O'Connor for the patch).
+* Add support for ops.py functions that are iterators (tx Brendan O'Connor for the patch).
 * Use new database cursors on each call instead of reusing one.
 * `setcookie` now takes an optional `domain` argument.
 * Fix bug in autoassign.

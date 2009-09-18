@@ -1,6 +1,6 @@
 """
 Database API
-(part of web.py)
+(part of ops.py)
 """
 
 __all__ = [
@@ -20,7 +20,7 @@ except ImportError:
 from utils import threadeddict, storage, iters, iterbetter
 
 try:
-    # db module can work independent of web.py
+    # db module can work independent of ops.py
     from webapi import debug, config
 except:
     import sys
