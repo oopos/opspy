@@ -1,11 +1,10 @@
 #!/usr/bin/env python
-
-# ...
+# just fun fun
 
 from distutils.core import setup
 
 setup(name='ops.py',
-      version='0.32',
+      version='0.5',
       description='ops.py: makes web apps',
       author='Aaron Swartz',
       author_email='me@aaronsw.com',
